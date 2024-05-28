@@ -6,7 +6,7 @@ import Image from "next/image";
 const links = [
     { name: "Home", href: "/" },
     { name: "Post", href: "/post" },
-    { name: "All posts", href: "/All-posts" },
+    { name: "All posts", href: "/all-posts" },
     { name: "About", href: "/about" },
 ]
 const Header=()=> {
