@@ -4,6 +4,7 @@ import "./globals.css";
 import Container from "@/components/container";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import LogStatus from "@/components/LogStatus";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body className={inter.className}>
       <Header />
         <Container>
+        <LogStatus />
           {children} 
         </Container>
         <Footer />

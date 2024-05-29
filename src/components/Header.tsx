@@ -1,10 +1,9 @@
 'use client'
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import SignUser from "./logUser/SignUser";
+
 
 const Header=()=> {
-  
   const links = [
     { name: "Home", href: "/" },
     { name: "Post", href: "/post" },
@@ -23,7 +22,7 @@ const Header=()=> {
             {link.name}
           </Link>
         ))}
-        <SignUser />
+        
       </div>
     </header>
   )
