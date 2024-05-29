@@ -1,15 +1,16 @@
 'use client'
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
+import SignUser from "./logUser/SignUser";
 
-const links = [
+const Header=()=> {
+  
+  const links = [
     { name: "Home", href: "/" },
     { name: "Post", href: "/post" },
     { name: "All posts", href: "/all-posts" },
     { name: "About", href: "/about" },
 ]
-const Header=()=> {
     const path = usePathname();
 
   return (
@@ -22,6 +23,7 @@ const Header=()=> {
             {link.name}
           </Link>
         ))}
+        <SignUser />
       </div>
     </header>
   )
