@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const About=()=> {
   return (
-    <div className="flex flex-row justify-evenly max-w-[1080px] mx-auto px-4 min-h-screen shadow-lg bg-slate-800 text-center">
+    <div className="flex flex-row justify-evenly max-w-[1080px] mx-auto px-4 min-h-[84vh] shadow-lg bg-slate-800 text-center rounded-sm">
         <div className="pt-32">
             <h1 className = "text-3xl font-bold mb-5">About</h1>
             <p className="max-w-[600px] mx-auto font-medium">Hello, I am Ajay Upadhyay, a B.Tech student in Computer Science Engineering, I embody a unique blend of technical expertise and literary passion. Driven by an insatiable curiosity, I delve into the fascinating world of STEM, exploring the intricate workings of technology and its potential to shape the future.

@@ -13,7 +13,7 @@ const Header=()=> {
     const path = usePathname();
 
   return (
-    <header className="flex max-w-[1280px] mx-auto px-4 shadow-lg bg-slate-800 text-zinc-200 rounded-sm justify-between p-4">
+    <header className="flex max-w-[1280px] mx-auto px-4 shadow-lg bg-slate-800 text-zinc-200 rounded-sm justify-between p-4 min-h-[7vh]">
       <div>
         <Link href='/'>NeXt Write</Link></div>
       <div className="flex gap-4">
