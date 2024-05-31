@@ -1,4 +1,4 @@
-# NextWrite
+# [NextWrite](https://next-blog-theta-nine-93.vercel.app)
 
 NextWrite by nextGrind is a blog post site created with Next.js, Prisma, and SQLite. Users can add posts by providing a title and body. Authentication is required to post anything, and it is provided by Kinde.
 
